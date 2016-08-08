@@ -1,0 +1,158 @@
+
+
+.line {
+	height: 1px;
+	width: 80%;
+	background-color: #d3d3d3;
+}
+
+h1 {
+	padding-bottom: 20px;
+	margin-top: 40px;
+}
+
+h3 {
+	font-style: italic;
+	padding: 20px 0;
+}
+
+.content ul {
+	list-style-type: none;
+	padding: 15px 0;
+	font-size: 16px;
+}
+
+.content ul li {
+	clear: both;
+}
+
+.content ul li p {
+	float: left;
+	width: 50%;
+}
+
+.content ul li span {
+	float: left;
+	width: 25%;
+}
+
+section {
+	clear: both;
+	padding-bottom: 60px;
+}
+
+strong, p {
+	font-size: 16px;
+}
+
+
+/* sidebar */
+
+
+.nav {
+	padding-top: 35px;
+	font-size: 18px;
+}
+
+.nav li a:hover {
+	background-color: #ccebf3;
+}
+
+
+/* Typography */
+
+
+.font {
+	padding: 20px 0;
+}
+
+i {
+	color: #a11;
+}
+
+
+/* colors */
+
+.color-card {
+	float: left;
+	width: 25%;
+	padding: 15px;
+	
+}
+
+.card-inner {
+	border: 1px solid #d3d3d3;
+}
+
+.color-swatch {
+	width: 100%;
+	height: 150px;
+}
+
+.color-card p{
+	text-align: center;
+	padding: 10px 0;
+}
+
+@media screen and (max-width: 1000px){
+	.color-card {
+		width: 50%;
+	}
+}
+
+
+/* buttons */
+
+.btn-content {
+	border: 1px solid #d3d3d3;
+}
+
+.btn-content .examples {
+	background-color: #d3d3d3;
+	padding: 50px 30px;
+}
+
+.btn-content .examples a {
+	margin-right: 20px;
+}
+
+.btn-content .examples .standard {
+	padding: 6px 35px;
+    background-color: #fff;
+    border-color: #f09221;
+    color: #f09221;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: .8px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+
+.btn-content .examples .standard:hover {
+	background-color: #f26b23;
+	text-decoration: none;
+	color: #fff;
+}
+
+.btn-content .examples .standard-primary {
+	background-color: #fff1d0;
+	border-color: #f26b23;
+	color: #f26b23;
+}
+
+.btn-content .examples .standard-primary:hover {
+	border-color: #fff;
+}
+
+.markup {
+	padding: 30px;
+}
+
+.markup p {
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+
+
+
