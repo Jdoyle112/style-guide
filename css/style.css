@@ -24,9 +24,10 @@ h3 {
 
 .content ul li {
 	clear: both;
+	padding: 10px 0;
 }
 
-.content ul li p {
+.content ul li span:first-child {
 	float: left;
 	width: 50%;
 }
