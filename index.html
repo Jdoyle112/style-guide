@@ -8,7 +8,7 @@
 	<header>
 		<div class="container">
 			<div class="row">
-				<h1>Style Guide</h1>
+				
 			</div>
 		</div>
 	</header>
@@ -16,11 +16,15 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-3 sidebar">
-					<ul class="nav">
-						<li><a href="#typography">Typography</a></li>
-						<li><a href="#colors">Colors</a></li>
-						<li><a href="#buttons">Buttons</a></li>
-					</ul>
+					<div>
+						<h1>Style Guide</h1>
+						<ul class="nav">
+							<li><a href="#typography">Typography</a></li>
+							<li><a href="#colors">Colors</a></li>
+							<li><a href="#buttons">Buttons</a></li>
+							<li><a href="#layout">Layout</a></li>
+						</ul>
+					</div>	
 				</div>
 				<div class="col-sm-9 content">
 					<section id="typography">
@@ -180,7 +184,43 @@
 								<p>&lt;a href='#' class='btn btn-primary'&gt;Primary&lt;/a&gt;</p>
 							</div>
 						</div>
-					</section>															
+					</section>	
+					<section id="layout">
+						<h1>Layout</h1>
+						<p>Content for the pages is broken up into <i>&lt;section&gt;</i> elements. Each section has a <i>container</i> div with styles which centers the content, and provides a <i>max-width</i>.</p>
+						<br>
+						<i>
+							.container { <br>
+							&nbsp;&nbsp;&nbsp;&nbsp;max-width: 1200px; <br>
+							&nbsp;&nbsp;&nbsp;&nbsp;padding-left: 15px; <br>
+							&nbsp;&nbsp;&nbsp;&nbsp;padding-right: 15px; <br>
+							&nbsp;&nbsp;&nbsp;&nbsp;margin: 0 auto; <br>
+						} <br><br>
+						@media (min-width:768px){<br>
+						&nbsp;&nbsp;.container { <br>
+						&nbsp;&nbsp;&nbsp;&nbsp;width:750px;<br>
+						&nbsp;&nbsp;}<br>
+						}<br><br>
+						@media (min-width:992px){<br>
+						&nbsp;&nbsp;.container {<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;width:970px;
+						&nbsp;&nbsp;} <br>
+						}<br><br>
+						@media (min-width:1200px){<br>
+						&nbsp;&nbsp;.container {<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;width:1170px; <br>
+						&nbsp;&nbsp;}<br>
+						}
+						</i>
+						<div class="box" id="container">
+							<p>Container</p>
+						</div>
+
+						<p>The site also takes advantage of bootstraps <i>Grid System</i> for quicker building, and responsiveness capabilites. The full documentation for the bootstrap grid system can be found <a href="http://v4-alpha.getbootstrap.com/layout/grid/">here</a>.</p>
+
+						<h3>Sections</h3>
+						
+												
 				</div>
 			</div>
 		</div>

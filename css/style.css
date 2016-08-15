@@ -49,6 +49,10 @@ strong, p {
 /* sidebar */
 
 
+.sidebar div {
+	position: fixed;
+}
+
 .nav {
 	padding-top: 35px;
 	font-size: 18px;
@@ -153,6 +157,31 @@ i {
 	margin-bottom: 15px;
 	font-size: 18px;
 }
+
+
+/* layout */
+
+.box {
+	background-color: #c6c6c6;
+	margin: 40px auto;
+	height: 150px;
+}
+
+.box p {
+	line-height: 150px;
+}
+
+#container {
+	max-width: 1200px;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+
+
+
 
 
 
